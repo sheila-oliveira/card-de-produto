@@ -1,0 +1,103 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root { 
+   --bg-color: #d9cdf7;
+   --text-color: #271a45;
+}
+
+body {
+   background: var(--bg-color);
+   height: 100vh;
+
+   display: grid;
+   place-content: center;
+
+}
+
+body * {
+   font-family: 'Lato', sans-serif;
+   color: var(--text-color);
+   line-height: 100%;
+}
+
+#cards {
+   display: flex;
+   align-items: center;
+   gap: 63px;
+}
+
+#btn-close,
+#animated {
+   display: none;
+}
+
+#card-image {
+   position: relative;
+}
+
+#card-image button {
+   position: absolute;
+   right: 0;
+
+   background-color: transparent;
+   border: 0;
+
+   cursor: pointer;
+}
+
+html.animated button#btn-360,
+html.animated img#normal {
+   display: none;
+}
+
+html.animated button#btn-close,
+html.animated img#animated {
+   display: initial;
+}
+
+#card-image > img {
+   width: 449px;
+   height: 222px;
+   object-fit: cover;
+}
+
+#card-details h4 {
+   font-family: 'Lato';
+   font-weight: 300;
+   font-size: 10px;
+
+   margin-bottom: 12px;
+}
+
+#card-details h1 {
+   margin-bottom: 12px;
+}
+
+#card-details p {
+   font-family: 'Lato';
+   font-weight: 300;
+   opacity: 0.6;
+
+   margin-bottom: 20px;
+
+}
+
+#card-details .button {
+   font-weight: 400;
+   font-size: 12px;
+
+   padding: 8px 16px;
+   border: 0.5px solid var(--text-color);
+   border-radius: 999px;
+
+   background-color: transparent;
+   cursor: pointer;
+}
+
+#card-details .button:hover {
+   background-color: #b9a4ee;
+}

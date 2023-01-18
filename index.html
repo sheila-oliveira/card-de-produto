@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="animated">
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Desafio | #2</title>
+</head>
+<body>
+   <div id="cards">
+      <div id="card-image">
+         <button id="btn-360" onclick="toggle()">
+            <img src="./assets/360.svg" alt="button para começar o gif de animação do sofa">
+         </button>
+         <button id="btn-close" onclick="toggle()">
+            <img  src="./assets/close.svg" alt="button para parar a animação do Sofá">
+         </button>
+
+         <img id="normal" src="./assets/sofá.jpg" alt="sofa">
+         <img id="animated" src="./assets/Sofá.gif" alt="Sofá animado">
+      </div>
+
+      <div id="card-details">
+         <h4>CÓDIGO 42404</h4>
+         <h1>Sofá Margot II - Rosé</h1>
+         <p>R$ 4.000</p>
+         <button class="button">
+            ADICIONAR Á CESTA
+         </button>
+      </div>
+   </div>
+
+   <script src="./script.js"></script>
+</body>
+</html>
