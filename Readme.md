@@ -4,11 +4,19 @@
 Projeto desenvolvido no desafio #boraCodar da Rocketseat, o projeto apresenta uma pagina web de um produto
 </p>
 
+
+
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
 <br>
+
+ <a align="center" 
+ href="https://sheila-oliveira.github.io/card-de-produto/">
+   Link do Projeto
+ </a>
+ 
 
 <p align="center">
   <img alt="Projeto Sofá Margot II - Rosé" src="https://user-images.githubusercontent.com/82782692/213458630-bf226189-060c-42cd-a6c9-ebd940b34eca.png" width="100%">
