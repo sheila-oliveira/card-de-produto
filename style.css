@@ -45,8 +45,9 @@ body * {
 
    background-color: transparent;
    border: 0;
-
    cursor: pointer;
+  
+   
 }
 
 html.animated button#btn-360,
@@ -69,7 +70,7 @@ html.animated img#animated {
    font-family: 'Lato';
    font-weight: 300;
    font-size: 10px;
-animation-delay: 2s;
+
    margin-bottom: 12px;
 }
 
@@ -101,6 +102,23 @@ animation-delay: 2s;
 #card-details .button:hover {
    background-color: #b9a4ee;
    color: white;
+}
+
+#card-datails, h4, h1, .button, p {
+   animation: cards .5s forwards;
+   opacity: 0;
+}
+
+
+@keyframes cards {
+  0% {
+   transform: translateY(100%);
+   opacity: 0;
+  }
+
+  100% {
+   opacity: 1;
+  }
 }
 
 @media (max-width: 740px) {
