@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - --
 
 ## 💻 Projeto
-  Projeto desenvolvido como desafio #2 do #boraCodar da Rocketseat. Tem como funcionalidade uma pagina de venda que inclui uma imagem do produto, butão de adicioan o para compra, butão de 360 para analisar melhor o produto.
+  Projeto desenvolvido como desafio#2 do #boraCodar da Rocketseat. Tem como funcionalidade uma pagina de venda que inclui uma imagem do produto, butão de adicionar o produto para compra, butão de 360 para analisar melhor o produto.
 
 ---
 
